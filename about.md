@@ -1,1 +1,11 @@
-<h1>About</h1>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<footer>
+</footer>
+</body>
+<h1> about this page</h1>
+</html>
+
