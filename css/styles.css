@@ -56,6 +56,10 @@
     .hobby {
         color: green;
     }
+    .landingPic {
+	    height: 75%;
+	    width: 75%
+    }
     h1{
         font-family: 'Pacifico', cursive;
         font-size: 4em;
