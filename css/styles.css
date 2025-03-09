@@ -5,8 +5,14 @@
         text-align: center;
     }
     
-    header, main, nav, footer {
+    header, main, nav{
         text-align: center; 
+    }
+
+    footer {
+	    text-align: center;
+	    color: #00FF00;
+	    font-size: .7em
     }
     
     nav a {
