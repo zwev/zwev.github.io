@@ -1,7 +1,7 @@
     
     body {
         background-color: black;
-        color: blue;
+        color: #00FF00;
         text-align: center;
     }
     
@@ -11,7 +11,7 @@
 
     footer {
 	    text-align: center;
-	    color: #00FF00;
+	    color: blue;
 	    font-size: .7em
     }
     
@@ -40,7 +40,7 @@
         font-size: 1.3em;
     }
     td strong {
-        color: orange;
+        color: ;
     }
     #table-header {
         background-color: #340a00;
