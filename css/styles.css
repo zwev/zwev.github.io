@@ -1,8 +1,11 @@
     
     body {
-        background-color: black;
+        background-color: #7a2b27;
         color: #00FF00;
         text-align: center;
+	font-family: 'Pacifico';
+        font-size: 4em;
+        margin-bottom: 0px;
     }
     
     header, main, nav{
@@ -23,9 +26,11 @@
         text-decoration: none;
     }
     
-    nav a:hover {  /*pseudo class*/
+    nav a:hover {  
          border-bottom:2px #00FF00 solid;
 	 border-top: 2px #00FF00 solid;
+	 border-left: #FF00FF ;
+	 border-right #FF00FF ;
          font-size: 2em;
          transition: .9s;
     }
