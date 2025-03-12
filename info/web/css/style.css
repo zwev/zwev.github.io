@@ -3,12 +3,14 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: blue;
 }
 
 nav {
     background: #333;
     padding: 10px;
     text-align: center;
+    background-image: linear-gradient(red, blue);
 }
 
 nav a {
@@ -27,6 +29,7 @@ nav a {
 .image-placeholder {
     margin-right: 20px;
     flex-shrink: 0;
+    opacity: .95;
 }
 
 .content {
