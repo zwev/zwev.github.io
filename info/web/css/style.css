@@ -25,9 +25,6 @@ nav a {
 }
 
 .image-placeholder {
-    width: 400px;
-    height: 180px;
-    background: #ccc;
     margin-right: 20px;
     flex-shrink: 0;
 }
