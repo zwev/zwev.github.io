@@ -60,7 +60,7 @@ function checkGuess(){
         document.querySelector("#attempts").textContent = 7 - attempts;
         document.querySelector("#guesses").textContent += guess + ", ";
         if (attempts == 7) {
-            feedback.textContent = "Sorry, you lost!";
+            feedback.textContent = "Sorry, you lost!" +\n "The number was: " + randomNumber;
             feedback.style.color = "red";
             losses +=1 ;
             gameOver();
