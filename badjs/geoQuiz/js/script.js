@@ -144,7 +144,7 @@ function gradeQuiz(){
     }
 
     //Grading question 8
-    if (q8Response == "sacramento") {
+    if (q8Response == "hawaii") {
         rightAnswer(8);
     }
     else {
@@ -152,7 +152,7 @@ function gradeQuiz(){
     }
 
     //Grading question 9
-    if (q9Response == "mo") {
+    if (q9Response == "ms") {
         rightAnswer(9);
     }
     else {
