@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random User Generator</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h1>Generate Fake User Data</h1>
+        
+        <div id="info">
+            <p>Info:</p>
+            <br>
+            <span id="title"></span>
+            <span id="firstName"></span>
+            <span id="lastName"></span>
+        </div>
+        <div id="photo"><img id="profile" alt="Generate A User Below!"></div>
+
+        <button id="generate">Generate A User!</button>
+        <br><br><br>
+
+        <form action="seed.html" id="seedForm">
+            Random Seed: <input type="text" name="seed" id="seed"><br>
+            <button id="seedButton">Generate!</button><br>
+            <span id="seedError"></span>
+        </form>
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
